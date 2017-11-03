@@ -5,7 +5,7 @@ Docker image that runs the node application [http-server](https://www.npmjs.com/
 How to run it:
 
 ```
-docker run --rm -ti -p 8080:8080 --name http-server -v DIRECTORY_TO_EXPOSE:/public winhong/docker-http-server
+docker run --rm -ti -p 8080:8080 --name http-server -v DIRECTORY_TO_EXPOSE:/public wh-cicd/docker-http-server
 ```
 
 Build command 
